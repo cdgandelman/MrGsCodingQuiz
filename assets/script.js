@@ -77,7 +77,7 @@
     }
 
     var setTime = function () {
-        timeleft = 30;
+        timeleft = 15;
 
     var timercheck = setInterval(function() {
         timerEl.innerText = timeleft;
