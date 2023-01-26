@@ -34,7 +34,7 @@
           choices: [{choice: '1. <h1>'}, {choice: '2. <js>'}, {choice: '3. <script>'}, {choice: '4. <head>'}]
         },
         { q: 'What does HTML stand for?', 
-          a: '1. callback function', 
+          a: '1. Hypertext Markup Language', 
           choices: [{choice: '1. Hypertext Markup Language'}, {choice: '2. Hypertext Markdown Language '}, {choice: '3. Hyperloop Machine Language '}, {choice: '4. Helicopters Terminals Motorboats Lamborginis '}]
         },
         { q: 'What syntax would call a function?', 
@@ -50,8 +50,8 @@
           choices: [{choice: '1. Do Overnight Modules'}, {choice: '2. Document Object Model'}, {choice: '3. Defiant Objective Model'}, {choice: '4. Dont Open Microwave'}]
         },
         { q: 'What does CSS stand for?', 
-          a: '2. local storage', 
-          choices: [{choice: '1. Central Style Sheets'}, {choice: '2. Cascading Style Sheets'}, {choice: '3. Cascading Simple Sheets'}, {choice: '4. Color Style Slay'}]
+          a: '2. Cascading Style Sheet', 
+          choices: [{choice: '1. Central Style Sheets'}, {choice: '2. Cascading Style Sheet'}, {choice: '3. Cascading Simple Sheets'}, {choice: '4. Color Style Slay'}]
         },
       ];
       
@@ -77,7 +77,7 @@
     }
 
     var setTime = function () {
-        timeleft = 15;
+        timeleft = 45;
 
     var timercheck = setInterval(function() {
         timerEl.innerText = timeleft;
